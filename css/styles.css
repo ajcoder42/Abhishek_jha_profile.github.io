@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  line-height: 0;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+  font-weight: bold;
+}
+
+a {
+  color: #11999e;
+  display: inline-block;
+}
+
+.upper {
+  background-color: #cdf0ea;
+  position: relative;
+  padding-top: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+form {
+  position: absolute;
+  left: 35%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.teacher {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+button {
+  background-color: #11999e;
+  border: none;
+  color: #eaf6f6;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 60px auto 60px auto;
+  border-radius: 8px;
+  width: 200px;
+  height: 50px;
+}
+
+button:hover {
+  background-color: #66bfbf;
+}
+
+.middle-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bottom-container {
+  height: 150px;
+  background-color: #66bfbf;
+}
+
+.contact-upper {
+  background-color: #cdf0ea;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact-head {
+  text-decoration: underline;
+}
+
+.footer-link {
+  color: #11999e;
+  margin-top: 50px;
+  padding-right: 20px;
+}
+
+.footer-link:hover {
+  background-color: #e0e0e0;
+}
+
+.closer {
+  margin-top: 30px;
+  color: #eaf6f6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: #e0e0e0;
+  width: 3%;
+  margin: 100px auto 100px auto;
+}
+
+p {
+  color: #40514e;
+}
+
+.touch {
+  color: #11999e;
+  margin: 50px auto 50px auto;
+}

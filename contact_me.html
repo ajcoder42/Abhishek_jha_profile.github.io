@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Details</title>
+    <link rel="icon" href="images/telephone.ico" />
+    <link rel="stylesheet" href="css\styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="contact-upper">
+      <h2 class="contact-head">Contact Details</h2>
+      <p>
+        Phone No. - <strong><em>8287383174</em></strong>
+      </p>
+      <p>
+        Email - <strong><em>pk8373933541@Gmail.com</em></strong>
+      </p>
+      <p>Permanent Addreess : B-5, Mayur Vihar-II, Delhi</p>
+    </div>
+    <h3>Wanna Send Me A Message !!</h3>
+    <form
+      action="mailto:jha.abhishek@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <table cellspacing="10">
+        <tr>
+          <td><label>Your Name : </label></td>
+          <td><input type="text" name="Name" /></td>
+        </tr>
+        <tr>
+          <td><label>Your Age : </label></td>
+          <td><input type="number" name="Age" /></td>
+        </tr>
+        <tr>
+          <td><label>Your D.O.B : </label></td>
+          <td><input type="date" name="D.O.B" /></td>
+        </tr>
+        <tr>
+          <td><label>Your Fav color :</label></td>
+          <td><input type="color" name="Fav color" /></td>
+        </tr>
+        <tr>
+          <td><label>Your Email : </label></td>
+          <td><input type="email" name="Email" /></td>
+        </tr>
+        <tr>
+          <td><label>Your Number : </label></td>
+          <td><input type="number" name="Number" /></td>
+        </tr>
+        <tr>
+          <td><label>Your Gender : </label></td>
+          <td>
+            <label>Male</label><input type="Radio" name="Gender" />
+            <label>Female</label><input type="Radio" name="Gender" />
+            <label>Other</label><input type="Radio" name="Gender" />
+          </td>
+        </tr>
+      </table>
+      <br />
+      <div class="message">
+        Type Your Message :<br /><br /><textarea
+          rows="5"
+          cols="70"
+          name="Message"
+        >
+        </textarea>
+      </div>
+      <br />
+      <div>
+        <label>
+          Do You Want To Get A Copy of Your Responses ?
+          <input type="checkbox" />
+        </label>
+      </div>
+      <table cellspacing="20">
+        <tr>
+          <td><input type="reset" value="RESET" /></td>
+          <td><input type="submit" value="SUBMIT" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
